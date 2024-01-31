@@ -83,14 +83,14 @@ if __name__ == "__main__":
     parser.add_argument(
         "--min_price", 
         type=float,
-        help="Minimum price of the airbnb to br included in the datdaset",
+        help="Minimum price of the airbnb to be included in the datdaset",
         required=True
     )
 
     parser.add_argument(
         "--max_price", 
         type=float,
-        help="Maximum price of the airbnb to br included in the datdaset",
+        help="Maximum price of the airbnb to be included in the datdaset",
         required=True
     )
 
